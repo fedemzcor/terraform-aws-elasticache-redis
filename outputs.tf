@@ -13,7 +13,8 @@ output "port" {
   description = "Redis port"
 }
 
-output "host" {
+
+/*output "host" {
   value = coalesce(
     module.dns.hostname,
     join(
@@ -23,3 +24,5 @@ output "host" {
   )
   description = "Redis host"
 }
+
+*/
