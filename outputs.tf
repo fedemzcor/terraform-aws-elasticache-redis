@@ -14,7 +14,7 @@ output "port" {
 }
 
 
-/*output "host" {
+output "host" {
   value = coalesce(
     module.dns.hostname,
     join(
@@ -24,5 +24,3 @@ output "port" {
   )
   description = "Redis host"
 }
-
-*/
