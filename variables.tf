@@ -97,7 +97,7 @@ variable "at_rest_encryption_enabled" {
 
 variable "transit_encryption_enabled" {
   type        = bool
-  default     = true
+  default     = false
   description = "Enable TLS"
 }
 
